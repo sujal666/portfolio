@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    landingpage
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +47,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Gen-AI Developer",
       icon: mobile,
     },
     {
@@ -115,6 +116,21 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Front-End Engineer",
+      company_name: "Pikvita Technologies Private Limited ",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "November 2024 - December 2023",
+      points: [
+      "Contributed to the development and optimization of Vendor Panel and Admin Panel to streamline operations for managing real users, delivery personnel, and vendors.",
+      "Designed and implemented responsive user interfaces using React.js, Tailwind CSS, and Next.js, ensuring seamless usability across devices.",
+      "Integrated real-time updates and notifications for vendors to efficiently manage orders, inventory, and payments.",
+      "Enhanced admin functionality by developing advanced filtering, sorting, and monitoring features to simplify the management of users, orders, and vendors.",
+      "Collaborated with the backend team to implement data-driven dashboards, providing actionable insights into platform metrics for better decision-making.",
+      "Played a key role in improving platform efficiency, enabling scalability and delivering an intuitive user experience."
+      ],
+    },
     {
       title: "Full-Stack Developer",
       company_name: "Navodita Infotech",
@@ -197,6 +213,47 @@ import {
   // ];
   
   const projects = [
+    {
+      name: "VidGenie: AI-Powered YouTube Content Generator",
+      description:
+        "VidGenie is a full-stack application designed for YouTube content creators to simplify video ideation and enhance content planning. With advanced scraping capabilities and AI-driven insights, VidGenie transforms YouTube data into actionable recommendations for your next viral video.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Neon",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Drizzle",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Crew-AI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Open-Ai",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Youtube-Api",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Clerk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Shadcn",
+          color: "green-text-gradient",
+        },
+      ],
+      image: landingpage,
+      source_code_link: "https://github.com/sujal666/youtube-idea-generator-nextjs",
+    },
     {
       name: "Banking platform ",
       description:
