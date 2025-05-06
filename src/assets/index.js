@@ -30,6 +30,7 @@ import carrent from "./bankingapp.png";
 import jobit from "./iphoneclone.png";
 import tripguide from "./tripguide.png";
 import landingpage from './landingpage.png';
+import finance from './finance.png'
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  landingpage
+  landingpage,
+  finance
 };

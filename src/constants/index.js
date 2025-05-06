@@ -23,7 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
-    landingpage
+    landingpage,
+    finance
   } from "../assets";
   
   export const navLinks = [
@@ -214,6 +215,35 @@ import {
   
   const projects = [
     {
+      name: "Finance AI",
+      description:
+        "FinAI revolutionizes personal finance management by combining AI-powered automation with intuitive financial tracking. Unlike traditional budgeting apps, FinAI offer, Smart receipt processing that eliminates manual data entry ,Proactive budget alerts that warn you before overspending ,AI-generated insights that provide actionable financial advice ,Comprehensive reporting with monthly summaries and trend analysis.The platform is designed for individuals who want to take control of their finances without the hassle of complex spreadsheets or multiple disconnected apps",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Innjest",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Supabase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Arcjet",
+          color: "green-text-gradient",
+        },
+      ],
+      image: finance,
+      source_code_link: "https://github.com/sujal666/financeAi",
+    },
+    {
       name: "VidGenie: AI-Powered YouTube Content Generator",
       description:
         "VidGenie is a full-stack application designed for YouTube content creators to simplify video ideation and enhance content planning. With advanced scraping capabilities and AI-driven insights, VidGenie transforms YouTube data into actionable recommendations for your next viral video.",
@@ -254,27 +284,27 @@ import {
       image: landingpage,
       source_code_link: "https://github.com/sujal666/youtube-idea-generator-nextjs",
     },
-    {
-      name: "Banking platform ",
-      description:
-        "a versatile banking platform that makes managing your finances effortless! Technologies Used: Nextjs, Typescript, ShadCN, Appwrite , Plaid, dwolla , Sentry",
-      tags: [
-        {
-          name: "Nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Appwrite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/sujal666/Banking",
-    },
+    // {
+    //   name: "Banking platform ",
+    //   description:
+    //     "a versatile banking platform that makes managing your finances effortless! Technologies Used: Nextjs, Typescript, ShadCN, Appwrite , Plaid, dwolla , Sentry",
+    //   tags: [
+    //     {
+    //       name: "Nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Appwrite",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: carrent,
+    //   source_code_link: "https://github.com/sujal666/Banking",
+    // },
     {
       name: "IPhone Website Clone",
       description:
@@ -296,6 +326,7 @@ import {
       image: jobit,
       source_code_link: "https://github.com/sujal666/Iphone_Web",
     },
+    
  
   ];
   
